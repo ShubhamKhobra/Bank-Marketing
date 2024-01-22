@@ -81,3 +81,7 @@ async def predict_term_deposite(person: Person):
     prediction = lr_model.predict(df_test)
     
     return str(prediction)
+
+@app.get("/shubham")
+def function():
+    return {"statement": "Hello World"}
