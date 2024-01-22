@@ -84,4 +84,5 @@ async def predict_term_deposite(person: Person):
 
 @app.get("/shubham")
 def function():
-    return {"statement": "Hello World"}
+    return {"statement": "Hello World",
+            "another statement": "Beautiful World"}
